@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "name": "Suresh",
+    "skills": ["React", "Node.js"],
+    "batch": "2022",
+    "branch": "CSE",
+    "college": "Andhra University",
+    "resume": "/resumes/alice.pdf",
+    "github": "https://github.com/alice",
+    "linkedin": "https://linkedin.com/in/alice"
+  },
+  {
+    "id": 2,
+    "name": "Smitha",
+    "skills": ["Angular", "Java"],
+    "batch": "2021",
+    "branch": "IT",
+    "college": "SVC College",
+    "resume": "/resumes/bob.pdf",
+    "github": "https://github.com/bob",
+    "linkedin": "https://linkedin.com/in/bob"
+  }
+]
