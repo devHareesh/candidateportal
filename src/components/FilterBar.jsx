@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import '../index.css';
 const FilterBar = ({ onFilter }) => {
   const [query, setQuery] = useState("");
 
@@ -10,15 +10,17 @@ const FilterBar = ({ onFilter }) => {
   };
 
   return (
-    <div className="mb-4">
-      <input
-        type="text"
-        placeholder="Search by name, skill, branch, college..."
-        className="border p-2 w-full rounded"
-        value={query}
-        onChange={handleInput}
-      />
-    </div>
+   <div className="search-wrapper">
+  <input
+    type="text"
+    placeholder="Search..."
+    value={query}
+    onChange={handleInput}
+    className="search-input"
+  />
+  <button className="search-button">🔍</button>
+</div>
+
   );
 };
 
