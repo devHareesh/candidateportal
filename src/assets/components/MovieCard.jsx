@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import '../../index.css'
-const MovieCard = ({ movie ,slugify}) => (
+const MovieCard = ({ movie}) => (
   <div className="movie-card">
     {console.log(movie)}
   <div className="movie-details">
